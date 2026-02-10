@@ -1,0 +1,32 @@
+.sidebar{
+    width:200px;
+    height:100vh;
+    background:#2f3640;
+    color:white;
+    position:fixed;
+    padding:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    margin:10px 0;
+}
+
+.content{
+    margin-left:220px;
+    padding:30px;
+}
+
+.center-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
